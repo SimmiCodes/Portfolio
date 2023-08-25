@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>My Portfolio</title>
+</head>
+
+<body>
+  <!-- **********************************************************Navigation*************************************************** -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#form-container">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- **********************************************************hero section************************************************************ -->
+
+  <div class="bg-secondary text-black p-5 text-center">
+    <h1 clas="fw-normal display-3">Welcome To My Portfolio</h1>
+    <p class="fs-3 fw-lighter">I showcase my skills and project here</p>
+  </div>
+
+
+  <!-- ****************************************************About me section************************************************************* -->
+  <section class="container pt-5">
+    <h1 class="text-center">About Me</h1>
+    <div class="col-sm-12 row pt-3">
+      <img class="col-md-6 "
+        src="https://images.pexels.com/photos/1181280/pexels-photo-1181280.jpeg?auto=compress&cs=tinysrgb&w=600"
+        alt="photo">
+      <p class="col-sm-12 col-md-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, id! Modi temporibus doloremque nemo voluptatibus enim corrupti quasi, numquam eveniet magni error, tenetur nam repellat nisi doloribus quod vero adipisci possimus? Facilis repellendus aliquid rerum ipsa, perferendis, veniam, animi ab quo facere vitae soluta. Fugit magni error excepturi maiores tenetur pariatur provident culpa aut facilis ea,<br><br> aperiam iste nisi rem consectetur veniam delectus incidunt et esse recusandae ratione alias atque! Eveniet doloribus dolore ab ducimus adipisci amet nemo pariatur illo facilis ipsum totam quis consectetur est suscipit a, ad error rem? Aliquid, voluptatibus laudantium magnam obcaecati explicabo commodi tenetur enim?</p>
+    </div>
+
+  </section>
+
+  <!-- *****************************************************Portfolio section********************************************************** -->
+  <section class="bg-light container pb-5" id="Portfolio">
+    <div class="container"></div>
+    <h2 class="text-center py-5  pb-3">Portfolio</h2>
+
+    <div class="row">
+      <div class="col-sm-12 mt-4 col-md-4">
+        <div class="card">
+          <img src="https://images.pexels.com/photos/879109/pexels-photo-879109.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="img" class="card-img-top">
+          <div class="card-body">
+            <h4>Project 1</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <Button class="btn btn-primary">Learn More</Button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 mt-4 col-md-4">
+        <div class="card">
+          <img src="https://images.pexels.com/photos/4385547/pexels-photo-4385547.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="img" class="card-img-top">
+          <div class="card-body">
+            <h4>Project 2</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <Button class="btn btn-primary">Learn More</Button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 mt-4 col-md-4">
+        <div class="card">
+          <img src="https://images.pexels.com/photos/3766227/pexels-photo-3766227.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="img" class="card-img-top">
+          <div class="card-body">
+            <h4>Project 3</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <Button class="btn btn-primary">Learn More</Button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- *********************************************Contact Section********************************************************* -->
+  <section id="form-container" class="container py-5">
+    <h1 class="text-center">Contact</h1>
+    <div class="row">
+      <div class="col-sm-12 col-md-6 mx-auto d-flex flex-column align-items-center">
+
+        <label for="name" id="name" class="d-block w-100 text-start form-label">Name</label>
+        <input type="text" class="form-control" placeholder="Simran singh">
+
+        <label for="email" id="email" class="d-block w-100 text-start form-label">Email</label>
+        <input type="email" class="form-control" placeholder="abc@gmail.com">
+
+        <label for="message" id="message" class="d-block w-100 text-start form-label">Message</label>
+        <textarea type="message" class="form-control" placeholder="write your message here...." rows="5"></textarea>
+
+        <button class="btn btn-primary w-75 btn-lg mt-4">Submit</button>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- **********************************************fottor****************************************************************** -->
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2023 My Portfolio. All rights reserved.
+  </footer>
+
+  <!-- javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
